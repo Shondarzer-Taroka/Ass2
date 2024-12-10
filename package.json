@@ -1,12 +1,13 @@
 {
-  "homepage": "https://github.com/Shondarzer-Taroka/Ass2",
+  "homepage": "https://shondarzer-taroka.github.io/Ass2",
   "name": "marknox",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
