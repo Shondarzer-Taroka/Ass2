@@ -5,5 +5,5 @@ import { ghPages } from 'vite-plugin-gh-pages'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(),ghPages()],
-  base:'https://github.com/Shondarzer-Taroka/Ass2'
+  base:'Ass2'
 })
