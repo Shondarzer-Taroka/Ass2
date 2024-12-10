@@ -61,7 +61,7 @@ const SkillsShowcase = () => {
   }, [inView]);
 
   return (
-    <div className="skills-showcase" ref={ref}>
+    <div className="skills-showcase" ref={ref} id="skills">
       <h2 className="section-title">Skills Showcase</h2>
       <div className="skills-container">
         {skills.map((skill, index) => (
@@ -92,3 +92,14 @@ const SkillsShowcase = () => {
 };
 
 export default SkillsShowcase;
+
+
+
+
+
+
+
+
+
+
+

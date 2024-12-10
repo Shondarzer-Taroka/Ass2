@@ -64,6 +64,7 @@ import HireMe from "../HireMe/HireMe";
 import SkillsShowcase from "../SkillsShowcase/SkillsShowcase";
 import "./Homepage.css";
 import Particle from "../Particle/Particle";
+import AboutPage from "../About/About";
 
 const Homepage = () => {
   const projectsRef = useRef(null);
@@ -95,6 +96,7 @@ const Homepage = () => {
 
       {/* Content Sections */}
       <HeroSection onViewMyWorkClick={scrollToProjects} onHireMe={scrollToHireMe} />
+     
       <div ref={projectsRef}>
         <ProjectsSection />
       </div>

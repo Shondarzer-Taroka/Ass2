@@ -96,7 +96,7 @@ import avatar from '../../../../src/assets/lmkdn-removebg-preview.png';
 
 const HeroSection = ({ onViewMyWorkClick,onHireMe }) => {
   return (
-    <div className="hero-container">
+    <div className="hero-container mt-14" id='about'>
       <div className="animated-icons">
         <div className="icon-wrapper spinning">
           <FaReact className="icon react-icon" />
