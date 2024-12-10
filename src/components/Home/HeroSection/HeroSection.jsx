@@ -92,9 +92,9 @@ import {
   FaGitAlt,
 } from 'react-icons/fa';
 import './HeroSection.css';
-import avatar from '../../../../src/assets/react.svg';
+import avatar from '../../../../src/assets/lmkdn-removebg-preview.png';
 
-const HeroSection = ({ onViewMyWorkClick }) => {
+const HeroSection = ({ onViewMyWorkClick,onHireMe }) => {
   return (
     <div className="hero-container">
       <div className="animated-icons">
@@ -129,7 +129,7 @@ const HeroSection = ({ onViewMyWorkClick }) => {
       </div>
       <div className="hero-left">
         <div className="avatar-container">
-          <img src={avatar} alt="Professional Avatar" className="hero-avatar" />
+          <img src={avatar} alt="Professional Avatar" className="hero-avatar object-contain pointer-events-none" />
           <div className="avatar-bg"></div>
         </div>
       </div>
@@ -143,7 +143,7 @@ const HeroSection = ({ onViewMyWorkClick }) => {
           functionality and elegance. Let's bring your ideas to life!
         </p>
         <div className="hero-buttons">
-          <button className="btn btn-left">Hire Me</button>
+          <button className="btn btn-left" onClick={onHireMe}>Hire Me</button>
           <button className="btn btn-right" onClick={onViewMyWorkClick}>
             View My Work
           </button>

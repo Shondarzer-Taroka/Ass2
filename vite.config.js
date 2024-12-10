@@ -4,6 +4,9 @@ import { ghPages } from 'vite-plugin-gh-pages'
 
 // https://vite.dev/config/
 export default defineConfig({
+  optimizeDeps: {
+    include: ['react-intersection-observer'],
+  },
   plugins: [react(),ghPages()],
   base:'Ass2',
   build:{
