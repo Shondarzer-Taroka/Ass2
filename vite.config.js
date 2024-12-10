@@ -5,5 +5,8 @@ import { ghPages } from 'vite-plugin-gh-pages'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(),ghPages()],
-  base:'Ass2'
+  base:'Ass2',
+  build:{
+    chunkSizeWarningLimit:16000
+  }
 })
