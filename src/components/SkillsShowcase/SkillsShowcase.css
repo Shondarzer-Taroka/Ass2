@@ -19,7 +19,7 @@
 }
 
 .skill-card {
-  width: 200px;
+  /* width: 200px; */
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
@@ -34,7 +34,7 @@
 
 /* Icon Styling */
 .icon-container {
-  font-size: 3rem;
+  /* font-size: 3rem; */
   color: #3498db;
   animation: iconBounce 2s infinite alternate;
 }
@@ -90,4 +90,32 @@
   margin-top: 1rem;
   font-size: 1.2rem;
   color: #333;
+}
+
+
+/* Base styles */
+.hero-container {
+  padding: 20px;
+  font-size: 16px;
+}
+
+
+
+/* Styles for 0px to 320px */
+@media (max-width: 322px) {
+   .skill-card{
+    padding: .5rem;
+  }
+}
+
+/* Styles for 321px to 520px */
+@media (min-width: 323px) and (max-width: 520px) {
+  .skill-card{
+    padding: .9rem;
+  }
+}
+
+/* Styles for 521px to 720px */
+@media (min-width: 521px) and (max-width: 720px) {
+  
 }

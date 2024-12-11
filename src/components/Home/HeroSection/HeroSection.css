@@ -53,13 +53,13 @@
 }
 
 .icon-wrapper:nth-child(4) {
-  top: 20%;
-  left: 60%;
+  top: 10%;
+  right: 20%;
 }
 
 .icon-wrapper:nth-child(5) {
-  top: 30%;
-  left: 30%;
+  top: 20%;
+  left: 50%;
   animation-delay: 1s;
 }
 
@@ -205,6 +205,30 @@
 }
 
 
+
+
+
+
+.spinning .react-icon {
+  animation: spin 4s linear infinite;
+}
+
+.spinning .git-icon {
+  animation: spin 6s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
 .hero-right {
   flex: 1;
   text-align: left;
@@ -290,7 +314,11 @@ h1 {
 
 
 /* Responsive Design */
+
+
+
 @media (max-width: 768px) {
+  
   .hero-container {
     flex-direction: column;
     text-align: center;
@@ -316,6 +344,15 @@ h1 {
   .intro {
     font-size: 1rem;
   }
+  .icon-wrapper:nth-child(2) {
+    top: 50%;
+    left: 60%;
+}
+  .icon-wrapper:nth-child(5) {
+    top: 25%;
+    right: -15%;
+    
+  }
 
    .icon-wrapper:nth-child(6) {
     top: 30%;
@@ -323,8 +360,8 @@ h1 {
   }
 
   .icon-wrapper:nth-child(7) {
-    top: 34%;
-    left: 74%;
+    top: 40%;
+    left: 70%;
   }
 
   .icon-wrapper:nth-child(3) {
@@ -332,3 +369,16 @@ h1 {
     left: 40%;
   } 
 }
+
+@media (min-width:770px) and (max-width:912px){
+.namewriter{
+  font-size: 30px;
+}
+}
+
+/* @media(max-width:412px){
+.namewriter{
+font-size: 20px;
+}
+
+} */
