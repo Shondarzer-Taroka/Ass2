@@ -193,7 +193,8 @@ const ProjectsSection = () => {
           visible: { opacity: 1, y: 0, transition: { duration: 1 } },
         }}
       >
-        My Work
+        
+        <span className="text-4xl font-extrabold text-gray-800 text-center mb-16">My Work </span>
       </motion.h2>
       <motion.div
         className="projects-container"

@@ -6,6 +6,7 @@ import HeroSection from "./HeroSection/HeroSection";
 import HireMe from "../HireMe/HireMe";
 import SkillsShowcase from "../SkillsShowcase/SkillsShowcase";
 import "./Homepage.css";
+import Timeline from "../Timeline/Timeline";
 
 
 
@@ -39,6 +40,7 @@ const Homepage = () => {
         <ProjectsSection />
       </div>
       <SkillsShowcase />
+      <Timeline/>
       <div ref={hiremeRef}>
        <HireMe />    
       </div>

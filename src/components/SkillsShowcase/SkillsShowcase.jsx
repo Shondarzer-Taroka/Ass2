@@ -71,7 +71,7 @@ const SkillsShowcase = () => {
 
   return (
     <div className="skills-showcase" id="skills">
-      <h2 className="section-title">Skills Showcase</h2>
+      <h2 className="section-title text-4xl font-extrabold text-gray-800 text-center mb-16">Skills Showcase</h2>
       <div className="skills-container" ref={ref}>
         {skills.map((skill, index) => (
           <motion.div

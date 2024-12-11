@@ -147,7 +147,6 @@ const HeroSection = ({ onViewMyWorkClick, onHireMe }) => {
   return (
     <motion.div
       className="hero-container max-w-7xl mx-auto mt-14"
-      id="about"
       initial="hidden"
       animate="visible"
       variants={containerVariants}

@@ -35,7 +35,7 @@ const ProFooter = () => {
                     </div>
 
                     {/* Contact Information */}
-                    <p className="text-gray-300 mb-4">
+                    <p className="text-gray-300 text-center mb-4">
                         You can reach me at:{" "}
                         <a href="mailto:mdnazmulnhasan@gmail.com" className="hover:text-blue-400">
                             mdnazmulnhasan@gmail.com
